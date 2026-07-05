@@ -1,6 +1,8 @@
 object PowerOfThreeL326 {
 
     fun isPowerOfThree(num: Int): Boolean {
+        if (num < 3) return false
+        
         var number = num
 
         while (number % 3 == 0) {
